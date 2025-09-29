@@ -1,0 +1,87 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.bx.bx-plus-circle {
+    font-size: 40px; 
+    margin-right: 8px; 
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.btn {
+    padding: 8px 12px; /* 調整按鈕的大小 */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #c4dee9;
+    color: #2c3e50;
+}
+
+/* RWD */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 10px;
+        max-width: 100%; /* 在小屏幕下容器占滿整個寬度 */
+    }
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="file"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.2rem; /* 在小屏幕下調整標題大小 */
+    }
+
+    .bx.bx-plus-circle {
+        font-size: 30px; /* 在小屏幕下調整圖標大小 */
+    }
+}

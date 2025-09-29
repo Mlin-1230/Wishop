@@ -1,0 +1,116 @@
+/* Order_Info.php 區域樣式 */
+.Order-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.Order-table {
+    width: 100%;
+    background-color: #ffffff; /* 使用白色背景 */
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+}
+
+.Order-Info,
+.Person-Info {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.Person-Info tr {
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+}
+
+.Order-Info tr {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.Order-Info th,
+.Person-Info th {
+    background-color: #f1c40f; /* 使用金色背景 */
+    padding: 10px;
+}
+
+.Order-Info td,
+.Person-Info td {
+    background-color: #ecf0f1; /* 使用金色背景 */
+    padding: 10px;
+}
+
+.Order-Info th,
+.Person-Info th {
+    text-align: center; /* 文字置中 */
+}
+
+.btn {
+    float: right;
+    border: none;
+    margin: -8px 5px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #c4dee9;
+    color: #2c3e50;
+}
+
+.cancel_btn {
+    background-color: #922B21;
+    color: #ffffff;
+}
+
+.cancel_btn:hover {
+    background-color: #661710;
+    color: #fff;
+}
+
+.deny_btn {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.deny_btn:hover {
+    background-color: #882116;
+    color: #fff;
+}
+
+.accept_btn {
+    background-color: #24b460;
+    color: #fff;
+}
+
+.accept_btn:hover {
+    background-color: #17964c;
+    color: #fff;
+}
+
+.back_btn {
+    padding: 8px 12px; /* 調整按鈕的大小 */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back_btn {
+    border: 1px solid gray;
+    background-color: #eee;
+    color: #2c3e50;
+}
+
+.back_btn:hover {
+    cursor: pointer;
+    background-color: #c8c8c8;
+    color: #ffffff;
+}

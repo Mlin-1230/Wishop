@@ -1,0 +1,123 @@
+.main {
+    width: 90%;
+    margin: 100px auto;
+    margin-top: 10px;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 將內容置中 */
+    margin: 20px 0 40px;
+}
+
+.pagination-container button {
+    padding: 8px 12px; /* 調整按鈕的大小 */
+    margin: 0 5px; /* 加入一些間距 */
+    font-size: 14px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination-container button:hover {
+    background-color: #c4dee9;
+    color: #2c3e50;
+}
+
+#currentPage {
+    margin: 0 10px;
+}
+
+.sort-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.sort-buttons button {
+    flex-basis: calc(25% - 20px);
+    margin: 10px 5px;
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+    background-color: #c4dee9;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word; 
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.rating {
+    color: #f39c12;
+}
+
+table th.buyer-name, table td.buyer-name {
+    width: 15%; /* 購買者名稱 */
+}
+
+table th.product-name, table td.product-name {
+    width: 20%; /* 產品名稱 */
+}
+
+table th.score, table td.score {
+    width: 10%; /* 評分 */
+}
+
+table th.comment, table td.comment {
+    width: 40%; /* 評論 */
+}
+
+table th.date, table td.date {
+    width: 15%; /* 日期 */
+}
+

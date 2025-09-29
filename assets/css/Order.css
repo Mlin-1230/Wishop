@@ -1,0 +1,72 @@
+/* Order.php 區域樣式 */
+.container {
+    max-width: 80%; /* 調整最大寬度 */
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tablinks {
+    background-color: #2c3e50; /* 將主色調用於選項按鈕的背景色 */
+    color: #ffffff; /* 將文字顏色調整為白色 */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 1%;
+    border-radius: 4px;
+}
+
+.tablinks.active {
+    background-color: #f1c40f; /* 將輔色用於選中的按鈕背景色 */
+    color: #ffffff; /* 將文字顏色調整為白色 */
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* 將表格背景色設定為白色 */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #bdc3c7; /* 將點綴色用於表格邊框顏色 */
+}
+
+th {
+    color: #fff;
+    background-color: #bd6fd5; /* 將金色用於表頭背景色 */
+}
+
+td {
+    color: #2c3e50;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1; /* 將米色用於偶數行背景色 */
+}
+
+/* 鼠標懸停效果 */
+#all tbody tr:hover, #place tbody tr:hover, #takeOrder tbody tr:hover, #bid tbody tr:hover, #wait tbody tr:hover, #del tbody tr:hover {
+    background-color: #bdc3c7; /* 將點綴色用於懸停時的背景色 */
+    cursor: pointer;
+}

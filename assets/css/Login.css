@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #2c3e50, #8e44ad); /* 漸層背景色 */
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.9); /* 中間區塊背景色 */
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #333333; /* 文字顏色 */
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333333; /* 標題文字顏色 */
+}
+
+.wrapper .inputbox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5; /* 輸入框背景色 */
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #333333; /* 輸入框文字顏色 */
+    padding: 20px 45px 20px 20px;
+}
+
+.inputbox input::placeholder {
+    color: #333333; /* 提示文字顏色 */
+}
+
+.inputbox i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .rf,
+.regist {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: #333333; /* 相關連結文字顏色 */
+}
+
+.regist p a,
+.rf a {
+    color: #3498db; /* 連結文字顏色 */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.regist p a:hover,
+.rf a:hover {
+    color: #2980b9; /* 連結 hover 文字顏色 */
+    text-decoration: none;
+}
+
+.wrapper .button {
+    width: 100%;
+    height: 45px;
+    background: #34495e; /* 按鈕背景色 */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff; /* 按鈕文字顏色 */
+    font-weight: 600;
+}
+
+.wrapper .button:hover {
+    background: #2c3e50; /* 按鈕 hover 背景色 */
+}
