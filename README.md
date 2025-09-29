@@ -9,9 +9,6 @@ A wish-based purchasing platform where sellers proactively offer products for or
 - **Delivery Time:** Risk of actual delivery time differing significantly from the promised time.
 - **Language & Currency:** Cross-border transactions may face exchange rate fluctuations.
 
-### System Challenges
-- **Comprehensive Platform:** Ensure sellers can set delivery timeframes and track shipment progress accurately.
-
 ---
 
 ## Solutions
