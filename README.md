@@ -28,3 +28,6 @@ A wish-based purchasing platform where sellers proactively offer products for or
 - **Fairness & Trust:** Promote healthy competition and reputation assurance.
   - **Healthy Competition:** Sellers compete fairly, ensuring product quality and timely delivery.
   - **Reputation Guarantee:** Unrestricted sellers are verified as reliable in both product quality and delivery.
+
+## Database Setup
+- Import the `pa.sql` file from the `Database` folder into your MySQL server to initialize the database.
