@@ -1,6 +1,7 @@
 # Wishop
 
 A wish-based purchasing platform where sellers proactively offer products for order, or buyers can make "wishes" for items, which sellers can fulfill.
+*This project was originally developed as a team project; the repository has been reorganized and published by the author.*
 
 ## Problems Addressed & Value Provided
 
