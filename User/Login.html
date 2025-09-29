@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/css/Login.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3daedf892a.js" crossorigin="anonymous"></script>
+
+    <!-- Alert -->
+    <script src="../assets/js/alert.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="../manage/User_php/Login.php" method="post">
+            <h1>登入</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入帳號" name="Account" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" placeholder="請輸入密碼" name="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="rf">
+                <a href="Forget.html">忘記密碼?</a>
+            </div>
+            <button type="submit" class="button">登入</button>
+            <div class="regist">
+                <p>
+                    沒有帳號嗎?
+                    <a href="Regist.html">註冊</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

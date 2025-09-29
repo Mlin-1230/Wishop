@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/css/Login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Alert -->
+    <script src="../assets/js/alert.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form action="../manage/User_php/Regist.php" method="post">
+            <h1>註冊</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入帳號" name="Account" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" placeholder="請輸入密碼" name="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" placeholder="請確認密碼" name="Repassword" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入信箱" name="Email" required>
+                <i class='bx bxl-gmail'></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入手機號碼" name="Phone" required>
+                <i class='bx bx-phone'></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入暱稱" name="User_Name" required>
+                <i class='bx bxs-user-voice'></i>
+            </div>
+            <button type="submit" class="button">註冊</button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

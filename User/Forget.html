@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>忘記密碼</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/css/Login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Alert -->
+    <script src="../assets/js/alert.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form action="../manage/User_php/Confirm.php" method="post">
+            <h1>忘記密碼</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入原帳號" name="Account" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入原信箱" name="Email" required>
+                <i class='bx bxl-gmail'></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="請輸入原手機號碼" name="Phone" required>
+                <i class='bx bx-phone'></i>
+            </div>
+            <button type="submit" class="button">確認資料</button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
